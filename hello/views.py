@@ -9,7 +9,7 @@ import  requests
 # Create your views here.
 def index(request):
     # return HttpResponse('Hello from Python!')
-    return render(request, 'scraper.py')
+    return render(request, 'index.html')
 
 
 # def db(request):
