@@ -2,6 +2,6 @@
 beautifulsoup4==4.5.3
 bleach==2.0.0
 
-
+gunicorn==19.1.1
 requests==2.13.0
 requests-oauthlib==0.8.0
