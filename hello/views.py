@@ -11,7 +11,8 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, 'index.html')
 
-
+def scraper(request):
+    return render(request, 'scraper.py')
 # def db(request):
 
 #     greeting = Greeting()
